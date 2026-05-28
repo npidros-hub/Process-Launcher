@@ -7,8 +7,6 @@
 <sup>to you</sup>
 
 this function automatically starts program for you. to start:
-1. add to your code
-2. input your program name in 1# arg
-```csharp
-Start(processName);
-```
+1. paste this code ``using System.Diagnostics;``
+3. add function to your code from ``launch.cs``
+4. input your program name in 1# arg to start it ``Start(process);``
